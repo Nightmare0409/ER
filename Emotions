@@ -1,0 +1,44 @@
+package emotions
+
+public class Emotions {
+
+	public String BestEmotion(String emotion){
+		System.out.println("Satissfaction is satissfactory.");
+		return null;
+		
+			}
+		
+			public static void main (String[] args){
+				//Satisfaction very = new Satisfaction();
+				//very.BestEmotion("Yay");
+		
+			}
+		
+			private int dopamine ;
+			private int chemical;
+			public Emotions()
+			{
+				this.dopamine = 10;
+			}
+			public Emotions(int dopamine)
+			{
+				this.dopamine = dopamine;
+			}
+		
+			public void showemotions()
+				{
+					System.out.println("Smile:)");
+				}
+		
+				public int showemotions(int dopamine)
+				{
+					System.out.println("sleep");
+				}
+				
+				public String BestEmotion(String emotion){
+					System.out.println("dopamine would be real nice.");
+					return null;
+					
+						}
+		}
+		

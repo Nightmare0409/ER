@@ -1,0 +1,12 @@
+package game
+
+public abstract class EldenRingVanilla implements Game{
+
+    private int gameoftheyear(int year){
+        System.out.println("Elden Ring was gameoftheyear for 2022.");
+    }
+    
+    protected int gameoftheyear(int year, int month){
+        System.out.println("Game awards were held in December, 2022.");
+    }
+}

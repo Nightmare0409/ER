@@ -1,0 +1,32 @@
+package enemies
+
+public class Fortissax extends AncientDragons{
+    private int health;
+    private int damage;
+    static int x=5;
+    final int y=5;
+    public Fortissax()
+    {
+        this.health = 200;
+    }
+    public Fortissax(int damage)
+    {
+        this.damage = damage;
+    }
+
+    public void attack()
+        {
+            System.out.println("Attack!");
+        }
+
+        public int attack(int damage )
+        {
+            System.out.println("Attack!");
+        }
+        @Override
+        public String BestCreature(String creature){
+            System.out.println("Fortissax knows he's the best.");
+            return null;
+            
+                }
+}

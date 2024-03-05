@@ -1,0 +1,35 @@
+package enemies
+
+public class Adula extends Wyverns{
+    private int health;
+    private int damage;
+    static int x=6;
+    final int x=9;
+
+    public Adula()
+    {
+        this.health = 200;
+    }
+    public Adula(int damage)
+    {
+        this.damage = damage;
+    }
+
+    public void attack()
+        {
+            System.out.println("Attack!");
+        }
+
+        public int attack(int damage )
+        {
+            System.out.println("Attack!");
+        }
+
+        @Override
+        public String BestCreature(String creature){
+            System.out.println("Adula wishes to be an Ancient Dragon.");
+            return null;
+            
+                }
+}
+

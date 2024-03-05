@@ -1,0 +1,22 @@
+package consoles
+
+public class Xbox implements Console{
+
+    public int Xbox(int Price){
+System.out.println("Xbox Series S is 300$");
+
+    }
+
+    public Xbox(){
+        System.out.println("Xbox Series S has no disk slot.");
+
+    }
+
+    protected void turnon(){
+System.out.println("Sound Effect");
+    }
+
+    private void turnon(){
+        System.out.println("Xbox icon shines bright");
+    }
+}

@@ -1,0 +1,17 @@
+package ClassInher.enemies;
+
+public class Enemies {
+    
+    public String BestCreature(String creature){
+System.out.println("Fortissax is the best.");
+return null;
+
+    }
+
+    public static void main (String[] args){
+        //Adula frosty = new Adula();
+        //Adula.BestCreature("Yay");
+
+    }
+
+}

@@ -1,0 +1,8 @@
+package consoles
+
+public interface console{
+
+	public void turnon(){
+		
+	}
+}

@@ -1,0 +1,19 @@
+package game
+
+public class EldenRing2 extends EldenRingVanilla{
+
+private int summon(int helper1){
+    System.out.println("helper 1 to the rescue");
+}
+
+protected int summon(int helper1, int helper2){
+    System.out.println("helper 1 and 2 to the rescue");
+}
+
+@Override
+
+private int gameoftheyear(int year){
+    System.out.println("Elden Ring is a great game.");
+}
+
+}

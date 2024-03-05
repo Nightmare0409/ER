@@ -1,0 +1,36 @@
+package enemies
+
+
+abstract class Wyverns{
+
+        private int legs;
+        private int wings;
+        static int x=3;
+        final int y=3;
+        public Wyverns()
+        {
+            this.legs = 2;
+        }
+        public Wyverns(int wings)
+        {
+            this.wings = 4;
+        }
+    
+    public void attack()
+        {
+            System.out.println("Attack!");
+        }
+
+        public int attack(int damage )
+        {
+            System.out.println("Attack!");
+            
+        }
+
+        @Override
+        public String BestCreature(String creature){
+            System.out.println("Wyverns aren't Ancient Dragons.");
+            return null;
+            
+                }
+    }

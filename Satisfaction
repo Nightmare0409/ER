@@ -1,0 +1,30 @@
+package emotions
+
+public class Satisfaction implements Emotions{
+
+    private int dopamine ;
+    private int chemical;
+    public Satisfaction()
+    {
+        this.dopamine = 10;
+    }
+    public Satisfaction(int dopamine)
+    {
+        this.dopamine = dopamine;
+    }
+
+    protected void showemotions()
+        {
+            System.out.println("Smile:)");
+        }
+
+        private int showemotions(int dopamine)
+        {
+            System.out.println("sleep");
+        }
+
+    @Override
+				public String BestEmotion(String emotion){
+					System.out.println("Despair ahead. Rating: 999");
+					return null;
+}

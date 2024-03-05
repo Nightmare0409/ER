@@ -1,0 +1,33 @@
+package enemies
+
+public class Lansseax extends AncientDragons{
+    private int health;
+    private int damage;
+    static int x=4;
+    final int y=4;
+    public Lansseax()
+    {
+        this.health = 200;
+    }
+    public Lansseax(int damage)
+    {
+        this.damage = damage;
+    }
+
+    public void attack()
+        {
+            System.out.println("Attack!");
+        }
+
+        public int attack(int damage )
+        {
+            System.out.println("Attack!");
+        }
+
+        @Override
+        public String BestCreature(String creature){
+            System.out.println("Lansseax is the best Ancient Dragon.");
+            return null;
+        
+                }
+}
